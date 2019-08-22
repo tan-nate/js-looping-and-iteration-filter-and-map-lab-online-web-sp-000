@@ -23,6 +23,5 @@ function exactMatch (drivers, matcher) {
 }
 
 function exactMatchToList(drivers, matcher) {
-  debugger;
   return exactMatch(drivers, matcher).map(driver => driver.name);
 }
