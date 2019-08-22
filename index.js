@@ -21,3 +21,8 @@ function exactMatch (drivers, matcher) {
     return matches;
   });
 }
+
+function exactMatchToList(drivers, matcher) {
+  debugger;
+  return exactMatch(drivers, matcher).map(driver => driver.name);
+}
